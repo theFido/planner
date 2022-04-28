@@ -1,0 +1,52 @@
+feature: A big request
+
+docs:
+	Wiki: https://wikipedia.org
+	Google: https://google.com
+
+// syntax
+// task: <description>
+// effort: <service> <pds>
+task: Spike: overall design
+effort: billing 1
+by: res1 1
+// single line tabs?
+notes:
+    We need to get this done
+    Another note
+
+ticket: my-ticket-13
+
+task: API for users to get something done
+effort: warehouse 4
+by: res2 32.1
+
+links:
+	My link: https://mylink.com
+
+notes:
+   Something is going to happen
+   Second note
+
+dependencies:
+	team0 2 "something"
+
+feature: My second feature
+
+task: Do some validation
+effort: marketing 3
+by: alice 2
+notes:
+    More stuff to do
+    A next one
+
+feature: The last feature
+
+task: Finish it
+effort: marketing 4
+notes:
+    Propagate request
+by: alice 5
+dependencies:
+    team1 4 Interface
+    team0 4 Review_something

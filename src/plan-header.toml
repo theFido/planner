@@ -1,0 +1,26 @@
+title = "Demo"
+
+links = [
+    { label= "Google", url = "https://www.google.com" },
+    { label = "Bing", url = "https://www.bing.com" }
+]
+
+[iterations]
+1 = "32.1"
+2 = "32.2"
+
+[variables]
+supported_boxes = "Apple tv, Android, Roku"
+
+[services]
+billing = "Billing System"
+warehouse = "Warehouse and inventory"
+marketing = "Marketing service"
+
+[resources]
+res1 = "Bob"
+res2 = "Alice"
+
+[teams]
+team1 = { name = "The Development Racing Team", contact="SM = Big Guy"}
+team0 = { name = "The team that should come first", contact = ""}
